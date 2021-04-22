@@ -2,3 +2,21 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color: #002A8D;
+}
+
+.mat-list-base .mat-list-item .mat-list-item-content, .mat-list-base .mat-list-option .mat-list-item-content {
+  border-bottom: 1px solid #C6C6C6;
+}
+
+h3.mat-line {
+  font-weight: bold!important;
+  font-size: 14px!important;
+  cursor: pointer;
+}
+
+p.mat-line {
+  font-size: 12px!important;
+}

@@ -1,8 +1,12 @@
 
 h1.texto-detalle {
-  background: blue;
+  background:#002A8D;
   color: white;
   text-align: center;
+}
+
+.mat-form-field {
+  width: 50%;
 }
 
 .container-form{
@@ -12,6 +16,8 @@ h1.texto-detalle {
 
 .mapa{
   margin-top: 32px;
+  width: 50%;
+  display: inline-grid;
 }
 
 agm-map {
