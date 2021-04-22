@@ -30,7 +30,7 @@ export class AgenciaComponent implements OnInit {
       }
       setTimeout(() => {
         this.loading = false;
-      }, 5000);
+      }, 3000);
     });
   }
 
@@ -38,9 +38,9 @@ export class AgenciaComponent implements OnInit {
     this.storage.setItem("agencia", JSON.stringify(agenciaSeleccionada));
     this.router.navigate(["/detalle", item]).then((e) => {
       if (e) {
-        //console.log("a linea Detalle!");
+        console.log("sucess!");
       } else {
-        //console.log("a linea Detalle failed!");
+        console.log("failed!");
       }
 
     });

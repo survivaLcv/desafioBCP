@@ -18,7 +18,9 @@
   transform: translateZ(0);
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
-  margin-top: 50%;
+}
+.imagen{
+  display: block;
 }
 .loader:before,
 .loader:after {

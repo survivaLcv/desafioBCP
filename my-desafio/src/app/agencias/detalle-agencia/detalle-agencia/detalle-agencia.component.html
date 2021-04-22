@@ -1,38 +1,38 @@
 <h1 class="texto-detalle">Detalle Agencias</h1>
 <div class="container-form">
-  <form [formGroup]="formAgencia" (submit)="actualizar()" >
+  <form [formGroup]="formAgencia" (submit)="actualizar()">
     <p>
-        <mat-form-field class="example-full-width">
-            <mat-label for="agencia" >Nombre de Agencia</mat-label>
-            <input matInput id="agencia" formControlName="agencia" >
-        </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="agencia">Nombre de Agencia</mat-label>
+        <input matInput id="agencia" formControlName="agencia">
+      </mat-form-field>
     </p>
     <p>
-        <mat-form-field class="example-full-width">
-            <mat-label for="direccion">Direccion</mat-label>
-            <input matInput id="direccion" formControlName="direccion">
-        </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="direccion">Direccion</mat-label>
+        <input matInput id="direccion" formControlName="direccion">
+      </mat-form-field>
     </p>
     <p>
-        <mat-form-field class="example-full-width">
-            <mat-label for="distrito">Distrito</mat-label>
-            <input matInput id="distrito" formControlName="distrito">
-        </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="distrito">Distrito</mat-label>
+        <input matInput id="distrito" formControlName="distrito">
+      </mat-form-field>
     </p>
     <p>
-        <mat-form-field class="example-full-width">
-            <mat-label for="lat">Latitud</mat-label>
-            <input matInput id="lat" formControlName="lat">
-        </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="lat">Latitud</mat-label>
+        <input matInput id="lat" formControlName="lat">
+      </mat-form-field>
     </p>
     <p>
-        <mat-form-field class="example-full-width">
-            <mat-label for="lon">Longitud</mat-label>
-            <input matInput id="lon" formControlName="lon">
-        </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="lon">Longitud</mat-label>
+        <input matInput id="lon" formControlName="lon">
+      </mat-form-field>
     </p>
     <div class="example-button-row">
-        <button mat-raised-button color="primary" >Actualizar</button>
+      <button mat-raised-button color="primary">Actualizar</button>
     </div>
 
 
@@ -42,6 +42,5 @@
       </agm-map>
     </div>
 
-</form>
+  </form>
 </div>
-
